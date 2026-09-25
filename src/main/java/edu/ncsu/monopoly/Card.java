@@ -3,6 +3,8 @@ package edu.ncsu.monopoly;
 
 
 //Proba: Commit1: Token
+
+//Proba: IKusi ea githuben build-eatzen duen
 public abstract class Card {
 
     public static final int TYPE_CHANCE = 1;
