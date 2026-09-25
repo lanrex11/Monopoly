@@ -33,4 +33,4 @@ jobs:
       - name: Build and analyze
         env:
           SONAR_TOKEN: 3e5c91ee10b6e370f916acd634ecec3ee5bf15fc
-        run: mvn clean org.jacoco:jacoco-maven-plugin:prepare-agentorg.jacoco:jacoco-maven-plugin:report install org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+        run: mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent org.jacoco:jacoco-maven-plugin:report install org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
